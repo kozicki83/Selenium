@@ -9,5 +9,6 @@ public class Test {
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("https://www.onet.pl/");
         webDriver.close();
+        System.out.println("Jest ok");
     }
 }
